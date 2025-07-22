@@ -1,0 +1,69 @@
+/* wallpaper.rasi */
+
+configuration {
+    show-icons: true;               /* thumbnails on */
+    enable-icon-animations: false;
+    inputbar-visible: false;      /* no input bar */
+}
+
+/* overall window: 60%×40% of 1080p */
+window {
+    width:   60%;
+    height:  40%;
+    location: center;
+    padding: 6px;
+    /* Dark grey with 80% opacity (CC) */
+    background: #2E2E2ECC;
+    border-radius: 8px;
+    cycle: false;
+}
+
+/* grid of items */
+listview {
+    columns: 5;                     /* 5 across */
+    lines:   3;                     /* 3 down */
+    fixed-height: true;
+    fixed-width:   true;
+    dynamic-width:   false;
+    dynamic-height: false;
+    spacing: 4px;                 /* tight grid */
+    outline: 0;
+    scrollbar: false;
+}
+
+/* each thumbnail cell */
+element {
+    margin: 2px;
+    padding: 2px;
+    border-radius: 4px;
+    /* Default background for elements */
+    background-color: #2E2E2E00; /* Fully transparent dark grey */
+}
+
+/* thumbnail size */
+element-icon {
+    size: 100px;                  /* smaller for compact grid */
+    margin: 0;
+    padding: 0;
+}
+
+/* filename under each thumbnail */
+element-text {
+    margin: 2px 0 0 0;
+    padding: 0;
+    /* Light grey for text */
+    color: #E0E0E0;
+    text-align: center;
+}
+
+/* Hovered element */
+element normal active {
+    background-color: #553399CC; /* Purple with 80% opacity */
+    color: #E0E0E0; /* Keep text light grey on hover */
+}
+
+/* Selected element */
+element selected active {
+    background-color: #7755AACC; /* Lighter purple with 80% opacity for selection */
+    color: #E0E0E0; /* Keep text light grey on selection */
+}

@@ -1,0 +1,109 @@
+/*
+ * Rofi Dark Purple Theme
+ * Based on a dark background with purple accents.
+ */
+
+configuration {
+    modi: "drun,run,ssh"; /* Example modes, adjust as needed */
+    font: "sans-serif 10"; /* Adjust font and size */
+    show-icons: false;    /* Set to true if you want icons (requires themes that support it) */
+    display-drun: "Apps"; /* Custom display name for drun mode */
+    display-run: "Run";   /* Custom display name for run mode */
+    display-ssh: "SSH";   /* Custom display name for ssh mode */
+}
+
+/* Define colors */
+* {
+    /* Backgrounds */
+    background-color:       #1e1e2e; /* Dark background */
+    background-alt:         #313244; /* Slightly lighter background for elements */
+    background-selected:    #cba6f7; /* Purple for selected item background */
+
+    /* Foregrounds */
+    foreground-color:       #cdd6f4; /* Light foreground text */
+    foreground-alt:         #bac2de; /* Slightly darker foreground text */
+    foreground-selected:    #1e1e2e; /* Dark text for selected item */
+
+    /* Borders and accents */
+    border-color:           #cba6f7; /* Purple border */
+    separator-color:        @background-alt; /* Separator color */
+}
+
+window {
+    background-color: @background-color;
+    border:           2px; /* Border width */
+    border-color:     @border-color;
+    padding:          10px; /* Padding around the window content */
+    width:            30%; /* Adjust window width */
+    location:         center; /* Center the window */
+    anchor:           center;
+}
+
+mainbox {
+    border:  0;
+    padding: 0;
+}
+
+inputbar {
+    children: [ prompt, textbox ];
+    background-color: @background-alt;
+    border:           0 0 1px 0; /* Border at the bottom */
+    border-color:     @border-color;
+    padding:          5px;
+    margin:           0 0 10px 0; /* Margin below input bar */
+}
+
+prompt {
+    padding:          0 5px 0 0;
+    background-color: @background-alt;
+    foreground-color: @foreground-alt;
+}
+
+textbox {
+    background-color: @background-alt;
+    foreground-color: @foreground-color;
+    cursor:           text;
+}
+
+listview {
+    background-color: @background-color;
+    columns:          1; /* Number of columns */
+    lines:            10; /* Number of visible lines */
+    spacing:          5px; /* Spacing between elements */
+    cycle:            true;
+    dynamic:          true;
+    layout:           vertical;
+}
+
+element {
+    background-color: @background-color;
+    foreground-color: @foreground-color;
+    padding:          5px;
+    border-radius:    5px; /* Rounded corners for elements */
+}
+
+element selected {
+    background-color: @background-selected;
+    foreground-color: @foreground-selected;
+    border:           0;
+}
+
+element-icon {
+    background-color: @background-selected; /* Example: icon background matches selected */
+    foreground-color: @foreground-selected; /* Example: icon color matches selected */
+}
+
+element-text {
+    background-color: inherit; /* Inherit from parent element */
+    foreground-color: inherit; /* Inherit from parent element */
+}
+
+/* Scrollbar (optional) */
+scrollbar {
+    width:            0px; /* Set to 0 to hide scrollbar */
+    border:           0;
+    handle-color:     @border-color; /* Purple handle */
+    handle-width:     5px;
+    padding:          0;
+}
+

@@ -1,0 +1,64 @@
+/* wallpaper-picker.rasi
+   Wide grid, image previews with names (no ext),
+   dark-grey transparent bg, purple transparent topbar */
+
+* {
+  element-row-margin: 12px;
+  element-column-margin: 12px;
+}
+
+/* Main window styling */
+window {
+  anchored: north-west;
+  x-offset: 5%;
+  y-offset: 5%;
+  width: 90%;
+  padding: 8px;
+  border: 0px;
+  background: #2e2e2ec0; /* dark grey, 75% opacity */
+}
+
+/* Search bar container ("topbar") */
+textbox-prompt {
+  margin: 0 0 12px 0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: #8000ff80; /* purple, 50% opacity */
+  font-size: 18px;
+  color: #eee;
+}
+
+/* Only apply grid in drun mode */
+@media (mode: drun) {
+  listview {
+    columns: 5;       /* wide grid */
+    fixed-height: false;
+    lines: 2;         /* two rows */
+    spacing: 12px;
+  }
+
+  listview entry {
+    children: [ "icon", "text" ];
+    padding: 0;
+    border: 0;
+    spacing: 4px;
+  }
+  listview entry icon {
+    size: 200px;      /* large previews */
+    border-radius: 8px;
+    border: 2px solid #444;
+  }
+  listview entry text {
+    padding: 4px 0 0 0;
+    text-align: center;
+    markup: false;
+    font-size: 14px;
+    color: #ddd;
+  }
+}
+
+/* Hide entries in other modes */
+@media (mode: run,mode:window,mode:ssh) {
+  listview { lines: 0; columns: 0; }
+}
+

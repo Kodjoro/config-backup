@@ -1,0 +1,793 @@
+{
+	"stateVersion": 70,
+	"global_desktopSettings_modalMode": {
+		"isModalModeActive": false
+	},
+	"global_desktopSettings_openAtLogin": false,
+	"global_desktopSettings_window": {
+		"width": 1600,
+		"height": 900,
+		"isMaximized": true,
+		"displayBounds": {
+			"x": 0,
+			"y": 0,
+			"width": 1600,
+			"height": 900
+		},
+		"x": 0,
+		"y": 0,
+		"zoomFactor": 1
+	},
+	"global_config_byServer": {
+		"https://api.bitwarden.com": {
+			"featureStates": {
+				"pm-10308-account-deprovisioning": true,
+				"pm-12337-refactor-sso-details-endpoint": true,
+				"pm-15493-restrict-item-deletion-to-can-manage-permission": false,
+				"pm-14439-policy-requirements": false,
+				"pm-18630-sso-external-id-visibility": true,
+				"pm-16811-optimize-invite-user-flow-to-fail-fast": false,
+				"event-based-organization-integrations": false,
+				"pm-9112-device-approval-persistence": false,
+				"pm-9115-two-factor-extension-data-persistence": false,
+				"email-verification": true,
+				"unauth-ui-refresh": true,
+				"pm-14938-browser-extension-login-approvals": false,
+				"pm-16117-set-initial-password-refactor": false,
+				"pm-16117-change-existing-password-refactor": false,
+				"pm-17128-recovery-code-login": true,
+				"idp-auto-submit-login": true,
+				"use-tree-walker-api-for-page-details-collection": true,
+				"inline-menu-field-qualification": true,
+				"inline-menu-positioning-improvements": true,
+				"ssh-agent": true,
+				"ssh-version-check-qa-override": false,
+				"generate-identity-fill-script-refactor": true,
+				"delay-fido2-page-script-init-within-mv2": true,
+				"notification-bar-add-login-improvements": true,
+				"block-browser-injections-by-domain": true,
+				"notification-refresh": false,
+				"enable-new-card-combined-expiry-autofill": true,
+				"macos-native-credential-sync": false,
+				"inline-menu-totp": true,
+				"PM-8163-trial-payment": false,
+				"pm-17772-admin-initiated-sponsorships": true,
+				"use-pricing-service": false,
+				"pm-12276-breadcrumbing-for-business-features": false,
+				"pm-18794-provider-payment-method": true,
+				"pm-19422-allow-automatic-tax-updates": true,
+				"pm-18770-enable-organization-business-unit-conversion": true,
+				"pm-199566-update-msp-to-charge-automatically": true,
+				"pm-19956-require-provider-payment-method-during-setup": true,
+				"use-organization-warnings-service": false,
+				"pm-20322-allow-trial-length-0": false,
+				"pm-21092-set-non-us-business-use-to-reverse-charge": false,
+				"pm-14466-risk-insights-critical-application": true,
+				"enable-risk-insights-notifications": true,
+				"return-error-on-existing-keypair": true,
+				"PM-4154-bulk-encryption-service": true,
+				"pm-12241-private-key-regeneration": false,
+				"argon2-default": false,
+				"userkey-rotation-v2": true,
+				"ssh-key-vault-item": true,
+				"use-sdk-for-decryption": false,
+				"pm-17987-block-type-0": true,
+				"native-carousel-flow": true,
+				"native-create-account-flow": true,
+				"import-logins-flow": true,
+				"app-review-prompt": true,
+				"mutual-tls": true,
+				"single-tap-passkey-creation": true,
+				"single-tap-passkey-authentication": true,
+				"enable-pm-bwa-sync": false,
+				"anon-addy-self-host-alias": true,
+				"simple-login-self-host-alias": true,
+				"enable-pm-flight-recorder": false,
+				"mobile-error-reporting": false,
+				"android-chrome-autofill": false,
+				"persist-popup-view": true,
+				"storage-reseed-refactor": true,
+				"web-push": false,
+				"installation-last-activity-date": true,
+				"ipc-channel-framework": false,
+				"desktop-send-ui-refresh": false,
+				"pm-8851-browser-onboarding-nudge": false,
+				"pm-9111-extension-persist-add-edit-form": false,
+				"security-tasks": true,
+				"cipher-key-encryption": false,
+				"pm-18520-desktop-cipher-forms": false,
+				"pm-19941-migrate-cipher-domain-to-sdk": false,
+				"pm-10609-end-user-notifications": false,
+				"pm-19917-separate-custom-role-permissions": false,
+				"phishing-detection": false
+			},
+			"version": "2025.5.2",
+			"gitHash": "1a9a28e6",
+			"server": null,
+			"utcDate": "2025-05-30T11:12:47.380Z",
+			"environment": {
+				"cloudRegion": "US",
+				"vault": "https://vault.bitwarden.com",
+				"api": "https://api.bitwarden.com",
+				"identity": "https://identity.bitwarden.com",
+				"notifications": "https://notifications.bitwarden.com",
+				"sso": "https://sso.bitwarden.com"
+			},
+			"push": {
+				"pushTechnology": 0,
+				"vapidPublicKey": null
+			},
+			"settings": {
+				"disableUserRegistration": false
+			}
+		}
+	},
+	"global_loginEmail_storedEmail": "yannis.dewynter@hotmail.com",
+	"global_applicationId_appId": "d1dbd943-d8e5-449c-9455-86bce30afd4e",
+	"global_account_accounts": {
+		"f057f04d-111b-4759-bd4d-b2e00115adab": {
+			"name": "Kodjoro",
+			"email": "yannis.dewynter@hotmail.com",
+			"emailVerified": true
+		}
+	},
+	"global_account_activity": {
+		"f057f04d-111b-4759-bd4d-b2e00115adab": "2025-05-17T17:34:14.904Z"
+	},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_environment_environment": {},
+	"global_account_activeAccountId": "f057f04d-111b-4759-bd4d-b2e00115adab",
+	"f057f04d-111b-4759-bd4d-b2e00115adab": {
+		"keys": {
+			"cryptoSymmetricKey": {}
+		},
+		"profile": {
+			"userId": "f057f04d-111b-4759-bd4d-b2e00115adab",
+			"name": "Kodjoro",
+			"email": "yannis.dewynter@hotmail.com"
+		}
+	},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_userDecryptionOptions_decryptionOptions": {
+		"hasMasterPassword": true
+	},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_vaultTimeoutSettings_vaultTimeoutAction": "lock",
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_vaultTimeoutSettings_vaultTimeout": "onRestart",
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_token_accessToken": "2.KgpkYis7RIFx7g1SXH3zOQ==|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",
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_token_refreshToken": null,
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_kdfConfig_kdfConfig": {
+		"kdfType": 0,
+		"iterations": 600000
+	},
+	"global_clearEvent_logout": [
+		{
+			"state": "kdfConfig",
+			"key": "kdfConfig",
+			"location": "disk"
+		},
+		{
+			"state": "billing",
+			"key": "accountProfile",
+			"location": "disk"
+		},
+		{
+			"state": "masterPassword",
+			"key": "masterKey",
+			"location": "memory"
+		},
+		{
+			"state": "masterPassword",
+			"key": "masterKeyHash",
+			"location": "disk"
+		},
+		{
+			"state": "masterPassword",
+			"key": "masterKeyEncryptedUserKey",
+			"location": "disk"
+		},
+		{
+			"state": "crypto",
+			"key": "userKey",
+			"location": "memory"
+		},
+		{
+			"state": "crypto",
+			"key": "everHadUserKey",
+			"location": "disk"
+		},
+		{
+			"state": "crypto",
+			"key": "privateKey",
+			"location": "disk"
+		},
+		{
+			"state": "environment",
+			"key": "cloudRegion",
+			"location": "memory"
+		},
+		{
+			"state": "config",
+			"key": "serverConfig",
+			"location": "disk"
+		},
+		{
+			"state": "crypto",
+			"key": "providerKeys",
+			"location": "disk"
+		},
+		{
+			"state": "crypto",
+			"key": "organizationKeys",
+			"location": "disk"
+		},
+		{
+			"state": "token",
+			"key": "securityStamp",
+			"location": "memory"
+		},
+		{
+			"state": "account",
+			"key": "verifyNewDeviceLogin",
+			"location": "disk"
+		},
+		{
+			"state": "keyConnector",
+			"key": "usesKeyConnector",
+			"location": "disk"
+		},
+		{
+			"state": "providers",
+			"key": "providers",
+			"location": "disk"
+		},
+		{
+			"state": "organizations",
+			"key": "organizations",
+			"location": "disk"
+		},
+		{
+			"state": "folder",
+			"key": "folders",
+			"location": "disk"
+		},
+		{
+			"state": "collection",
+			"key": "collections",
+			"location": "disk"
+		},
+		{
+			"state": "ciphersMemory",
+			"key": "decryptedCiphers",
+			"location": "memory"
+		},
+		{
+			"state": "ciphers",
+			"key": "ciphers",
+			"location": "disk"
+		},
+		{
+			"state": "encryptedSend",
+			"key": "sendUserEncrypted",
+			"location": "disk"
+		},
+		{
+			"state": "domainSettings",
+			"key": "equivalentDomains",
+			"location": "disk"
+		},
+		{
+			"state": "policies",
+			"key": "policies",
+			"location": "disk"
+		},
+		{
+			"state": "sync",
+			"key": "lastSync",
+			"location": "disk"
+		},
+		{
+			"state": "vaultSearch",
+			"key": "isIndexing",
+			"location": "memory"
+		},
+		{
+			"state": "vaultSearch",
+			"key": "searchIndex",
+			"location": "memory"
+		},
+		{
+			"state": "ciphersMemory",
+			"key": "failedDecryptedCiphers",
+			"location": "memory"
+		},
+		{
+			"state": "eventCollection",
+			"key": "events",
+			"location": "disk"
+		}
+	],
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_billing_accountProfile": {
+		"hasPremiumPersonally": false,
+		"hasPremiumFromAnyOrganization": false
+	},
+	"global_clearEvent_lock": [
+		{
+			"state": "masterPassword",
+			"key": "masterKey",
+			"location": "memory"
+		},
+		{
+			"state": "crypto",
+			"key": "userKey",
+			"location": "memory"
+		},
+		{
+			"state": "ciphersMemory",
+			"key": "decryptedCiphers",
+			"location": "memory"
+		},
+		{
+			"state": "vaultSearch",
+			"key": "isIndexing",
+			"location": "memory"
+		},
+		{
+			"state": "vaultSearch",
+			"key": "searchIndex",
+			"location": "memory"
+		},
+		{
+			"state": "ciphersMemory",
+			"key": "failedDecryptedCiphers",
+			"location": "memory"
+		}
+	],
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_masterPassword_masterKeyHash": "0euSzEWpvqBTNuD4RFplDqGgy3II2IXwvusizRTX1ko=",
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_masterPassword_masterKeyEncryptedUserKey": "2.ujzSQYHfhFYiumS7KtN7xQ==|lS1fuGEXrgffcY8/mZ5YsxAAugtRBst+yVJr5lNtjeCBNugfc3pa0GBSa8w80NNUeYZXTuNu6WVO+ZPX7qzYiIm0j92FLYeLmPeCpd8/4a0=|GsG7oDzDrX2yryUlVMmHp5t54NMqcjoJHuPbh9Nt+oo=",
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_crypto_everHadUserKey": true,
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_pinUnlock_pinKeyEncryptedUserKeyPersistent": null,
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_crypto_privateKey": "2.mKGauuT8zukpqRMw9i8B9w==|Ot8BudEZP73a/36UAOzGtg9fLHnr/pyDEnQIhC95n7CbxRzpH7Jm6H8J3CeHfKu+lZLFCi9Yh2YHrhURJYH3W0i9ZIIZGn0e1Z+8pDKcB6MxSfe5I8OHiT/Oe+mL1YWSpf3EpFYP7nOkcqm0y99bWamxLRQj7uVEZ7wIrMuZpj03v6OhiWN+HgVILZTKm7aMZO0S08hIfK1/8zel1zYacQSTXH3Cbt5g4X8UKRLT+7nhBg4ZzUlxIOXKZ7ikfI5iuPmD7M5qWrtURj5B+A7MIVbkwPEJ+eCiC/xc2/u50xXlNvE8Y9JTFZ4tH1AD3y5jGDfGXEzP8mkfvoLxMuycKpSR1/3JlEmk770TSiUqjk5dc5CkT1KgA/mt1g/QgUqgLaua68niU35BcJniRzxJuyDFPrC77Y3mJjFZMHQsFWi2YHHte9Fegkwj5+h/i0Y9EXqGH6iE3morYCQSrRN2PidDas204+1m2k2mICXmromDOtxIvw2AVDqwQXAatwaAUPfOy+QbitCH5Zrh7BvlPKQOHfVDYUKEK31ZVzykX105vOkTpXn1vOS2BYvUkrDpBAlftLugveoTm+YLxAQBfiBwOc7FwQdNHJYbzNvfTc5uSa/oGDSBgWpfk1T0OPxJYtLsSZPPl635/8FOvHIuZ8ex5MM+NlxpJ4/+BYXEWTShrrcQIHY+CjEPWVktYLGpZneKuCGooEbM8m8qgWvJVO1MMNwx4bBRMdtbl0XNUxhoSgGvR5uBkqsazZDbAoLAwO7K+HtSVFzXBzX685AcMAG7xVX9m8afWdTA3oYWKB+stHdwXa/maZdZnw69eAx87y0RIh+f4beCiouLG1mtNcsSZrb4KMkqAUuC8comH3L5crQJVjCt2TfpjZj1dtzRquAXO4K8rtKDJRa6irpQ5xZZCvdkb9Mvdj0N+psTTegCmbX4ZIM2PDvOcLRwXmM464Zv7rKFtIOWJXRMNua14Zx+HLNi0p7iqFJv8901FhGxK/HRALi4TBh1XqIpG9NxYKg2HwiEYRyaRudZfzhUKqTnKhyopO/cQfxGr4+rlEQQNbbrjPD1he8lrNknoxluq9mJ3MdeZU7b8c6y6J6KLjBjRaxJU4lShaKw4ESUmX+tYt17iBjrSe54Oc2txLHjWuJTZHg1JcUDRokNxBRmE3cQlpEAXAxQHIFrYeKdCW24Os9xLeKZzy8Q064+ZW5KgspAwcxj1foMltQpyGs/wgSbfqBnZxXBylRDltcQV6kF3S5vVE+r+hJuj90BVyaK3AhBjmnjQ9WN759BElgOmJXltFK3YEOP5zviutCDWafeFYacuuaII67ns70hRpkL3XmN4L4MNaxXa4iiYw4dUknEVd5jcV/KEVobGG9SNzjItniP2USOGkFae6WR/Mic5bhKybhJiStosutPfs8Ec5BZcbwpNuY0VaNaWtlfoL4xTimQi9Vaxsmldf+OaSbBQpu5tJy9bro4ZQ/uAO4iNJmvBg6LQ4r+rzuYVoY34W0K0zAFfa2hN41Sa3TOTiol1LQry9/qj1zImikeJ4t4qYBIdDpR/8u1I/4ygyR+ryzk6fylGBDdnqyhPTOMJf9QH33bw1vMKRIZeagtD3SU4dt5/eNSYRY6Q0xR4dl1JJk=|SQ1HMeoR+WaH1Si9Adv+SsPejBrSJ1jcWr51z7iNKis=",
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_config_serverConfig": {
+		"featureStates": {
+			"pm-10308-account-deprovisioning": true,
+			"pm-12337-refactor-sso-details-endpoint": true,
+			"pm-15493-restrict-item-deletion-to-can-manage-permission": false,
+			"pm-14439-policy-requirements": false,
+			"pm-18630-sso-external-id-visibility": true,
+			"pm-16811-optimize-invite-user-flow-to-fail-fast": false,
+			"event-based-organization-integrations": false,
+			"pm-9112-device-approval-persistence": false,
+			"pm-9115-two-factor-extension-data-persistence": false,
+			"email-verification": true,
+			"pm-8285-device-trust-logging": true,
+			"authenticator-2fa-token": true,
+			"unauth-ui-refresh": true,
+			"new-device-verification": true,
+			"pm-16117-set-initial-password-refactor": false,
+			"pm-16117-change-existing-password-refactor": false,
+			"pm-17128-recovery-code-login": true,
+			"idp-auto-submit-login": true,
+			"use-tree-walker-api-for-page-details-collection": true,
+			"inline-menu-field-qualification": true,
+			"inline-menu-positioning-improvements": true,
+			"ssh-agent": true,
+			"ssh-version-check-qa-override": false,
+			"generate-identity-fill-script-refactor": true,
+			"delay-fido2-page-script-init-within-mv2": true,
+			"notification-bar-add-login-improvements": true,
+			"block-browser-injections-by-domain": true,
+			"notification-refresh": false,
+			"enable-new-card-combined-expiry-autofill": true,
+			"macos-native-credential-sync": false,
+			"inline-menu-totp": true,
+			"PM-8163-trial-payment": false,
+			"pm-17772-admin-initiated-sponsorships": false,
+			"use-pricing-service": false,
+			"pm-12276-breadcrumbing-for-business-features": false,
+			"pm-18794-provider-payment-method": true,
+			"pm-19147-automatic-tax-improvements": true,
+			"pm-19422-allow-automatic-tax-updates": true,
+			"pm-18770-enable-organization-business-unit-conversion": true,
+			"pm-199566-update-msp-to-charge-automatically": true,
+			"pm-19956-require-provider-payment-method-during-setup": false,
+			"use-organization-warnings-service": false,
+			"pm-14466-risk-insights-critical-application": true,
+			"enable-risk-insights-notifications": true,
+			"return-error-on-existing-keypair": true,
+			"PM-4154-bulk-encryption-service": true,
+			"pm-12241-private-key-regeneration": false,
+			"argon2-default": false,
+			"userkey-rotation-v2": true,
+			"ssh-key-vault-item": true,
+			"use-sdk-for-decryption": false,
+			"pm-17987-block-type-0": true,
+			"native-carousel-flow": true,
+			"native-create-account-flow": true,
+			"import-logins-flow": true,
+			"app-review-prompt": true,
+			"enable-password-manager-sync-android": false,
+			"enable-password-manager-sync-ios": false,
+			"mutual-tls": true,
+			"single-tap-passkey-creation": true,
+			"single-tap-passkey-authentication": true,
+			"enable-pm-bwa-sync": false,
+			"anon-addy-self-host-alias": true,
+			"simple-login-self-host-alias": true,
+			"enable-pm-flight-recorder": false,
+			"mobile-error-reporting": false,
+			"android-chrome-autofill": false,
+			"persist-popup-view": true,
+			"storage-reseed-refactor": true,
+			"web-push": false,
+			"installation-last-activity-date": true,
+			"ipc-channel-framework": false,
+			"desktop-send-ui-refresh": false,
+			"pm-8851-browser-onboarding-nudge": false,
+			"pm-9111-extension-persist-add-edit-form": false,
+			"new-device-permanent-dismiss": false,
+			"new-device-temporary-dismiss": false,
+			"restrict-provider-access": true,
+			"security-tasks": true,
+			"cipher-key-encryption": false,
+			"pm-18520-desktop-cipher-forms": false,
+			"pm-19941-migrate-cipher-domain-to-sdk": false,
+			"pm-10609-end-user-notifications": false,
+			"phishing-detection": false
+		},
+		"version": "2025.5.0",
+		"gitHash": "4a7db112",
+		"server": null,
+		"utcDate": "2025-05-17T16:51:04.977Z",
+		"environment": {
+			"cloudRegion": "US",
+			"vault": "https://vault.bitwarden.com",
+			"api": "https://api.bitwarden.com",
+			"identity": "https://identity.bitwarden.com",
+			"notifications": "https://notifications.bitwarden.com",
+			"sso": "https://sso.bitwarden.com"
+		},
+		"push": {
+			"pushTechnology": 0,
+			"vapidPublicKey": null
+		},
+		"settings": {
+			"disableUserRegistration": false
+		}
+	},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_crypto_providerKeys": {},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_crypto_organizationKeys": {},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_avatar_avatarColor": null,
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_account_verifyNewDeviceLogin": true,
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_keyConnector_usesKeyConnector": false,
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_providers_providers": {},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_organizations_organizations": {},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_keyConnector_convertAccountToKeyConnector": null,
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_folder_folders": {},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_collection_collections": {},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_ciphers_ciphers": {
+		"5f9ac231-020b-41c1-8884-b2e90107de2d": {
+			"id": "5f9ac231-020b-41c1-8884-b2e90107de2d",
+			"organizationId": null,
+			"folderId": null,
+			"edit": true,
+			"viewPassword": true,
+			"permissions": {
+				"response": {
+					"delete": true,
+					"restore": true
+				},
+				"delete": true,
+				"restore": true
+			},
+			"organizationUseTotp": false,
+			"favorite": false,
+			"revisionDate": "2025-05-26T16:01:04.1733333Z",
+			"type": 1,
+			"name": "2.3Id4VCFDwKor+RgoiXk6Og==|4itNLpYViO7BkIxlDQAv3A==|EOWgI9ylDi5UpcdO/rhjBqZfCMtbH/KL3M5zguJy8KM=",
+			"notes": null,
+			"collectionIds": [],
+			"creationDate": "2025-05-26T16:00:42.81Z",
+			"deletedDate": null,
+			"reprompt": 0,
+			"key": null,
+			"login": {
+				"username": "2.mgWU6IOhlDae/mzWoLgW/Q==|RGYGjx2tEjPgL1VBg/kG4A==|PFrfHw3xBJ6lu0K2b/6vArOKwnNl3IuNj6TfHnEzrZ0=",
+				"password": "2.4eNGXLSNLaTmMWUiOlWvkA==|NtPeYaa7VxBKuddwRhZk46KlN0fM3UQA9FF14C3Gr1s=|ALddbzkbqEHIrQ799ncXHeHxeFccwc3Qmo9vbTrl1AA=",
+				"passwordRevisionDate": null,
+				"totp": null,
+				"autofillOnPageLoad": null,
+				"uris": [
+					{
+						"match": null,
+						"uri": "2.yIHIdOvI3Hqzjvm3eGv+fQ==|oIqII1EbRD3H3zLCHDLccIPWPaG/HSvd5hA58DafU8s=|o83GlPXRSp5PuEj5HImUTWDDEvfeMPIai6Dc7oMHyA0=",
+						"uriChecksum": "2.mZSIOhqsxZZ06Bvl9pF9xw==|g9AjgPppaBPH2zFUgLdNroCA6iOR2qhk+wQYEhDbGy0iMXpHqleZq24J6jPPprTZ|hiu2HwOhtiDS7+xgrFVkeVBQQbgWglxK8Tza9MQhBYM="
+					}
+				]
+			}
+		},
+		"7a3bad25-558f-4073-bd63-b2e0011791e8": {
+			"id": "7a3bad25-558f-4073-bd63-b2e0011791e8",
+			"organizationId": null,
+			"folderId": null,
+			"edit": true,
+			"viewPassword": true,
+			"permissions": {
+				"response": {
+					"delete": true,
+					"restore": true
+				},
+				"delete": true,
+				"restore": true
+			},
+			"organizationUseTotp": false,
+			"favorite": false,
+			"revisionDate": "2025-05-17T16:57:52.98Z",
+			"type": 1,
+			"name": "2.xg5ucrRAOmTUzvt16qyNiA==|SYk6AKsMVz/PZWCweXZjWA==|gijS8CbCUu1hwbyMaQ6nJzTsjTvQ+nkQ+7bTYMETk/4=",
+			"notes": null,
+			"collectionIds": [],
+			"creationDate": "2025-05-17T16:57:52.98Z",
+			"deletedDate": null,
+			"reprompt": 0,
+			"key": null,
+			"login": {
+				"username": "2.4pNiUxs6fSPP4M0vbsXFDw==|thqvTmmipArg1T3lqtVPew==|mI2ILEaEqjw6oK8rinIX3H3ZpJzzkQ5Hco44eospl3E=",
+				"password": "2.j+t+kScwaMnBEShUchNzJA==|7mQLyOPaSy5VhA4NjQCsMg==|e9htHmdi5q7kL+t1Rjksgav3vfTFG1DKKoABCkRLTLs=",
+				"passwordRevisionDate": null,
+				"totp": null,
+				"autofillOnPageLoad": null,
+				"uris": [
+					{
+						"match": null,
+						"uri": "2.q32WQGg4sjfRiCq0hqBVqQ==|075levey9ZXn5ZIAIkVx/GCyIZ/XbPXelFcbZ0C2YNI=|ERNF+imTm/EWAmZgY7+0pvW5jE7utu3dS77nOHOfDQA=",
+						"uriChecksum": "2.x4h0hQ9BpM8d6j+r8zJyKQ==|/rbfDz37wx8lgDy/9eSN+L6y+s/3B2Wj70K85Afi7bkX44dyXDhtBBYUMNoLClVL|RU+i6Q28cCwJR2eKt+ZONOCejLdshd5ahegCBE5055o="
+					}
+				]
+			}
+		},
+		"bae11d8c-ff48-4c20-b711-b2e00116c900": {
+			"id": "bae11d8c-ff48-4c20-b711-b2e00116c900",
+			"organizationId": null,
+			"folderId": null,
+			"edit": true,
+			"viewPassword": true,
+			"permissions": {
+				"response": {
+					"delete": true,
+					"restore": true
+				},
+				"delete": true,
+				"restore": true
+			},
+			"organizationUseTotp": false,
+			"favorite": false,
+			"revisionDate": "2025-05-17T16:55:01.54Z",
+			"type": 1,
+			"name": "2.bHj5c3QTcAFe8n73MhQQUQ==|4jmBbOmtAKTr2STBfeUh6w==|ahdduw34aLebcDNECgkaBwW0PfXupEjepz50jUKdNqo=",
+			"notes": null,
+			"collectionIds": [],
+			"creationDate": "2025-05-17T16:55:01.54Z",
+			"deletedDate": null,
+			"reprompt": 0,
+			"key": null,
+			"login": {
+				"username": "2.xCEODYDFcaQamApbmF9EqA==|5V///3EBAoaOatcy7ZNXmER7C/tfw1UEIpmHKlVOI1w=|fp4DCvrU+r5LpWTtlAOKqjTAPsm63XG2oSlmqD5H8YA=",
+				"password": "2.uDIux0Zm8zNpLTW/LfIDfg==|o8gnexAGrglkM7ClOCSuDQ==|CaA9gQLo9T4whiakmAf75oN3r6BZU/nT0Vz1+m2HFy8=",
+				"passwordRevisionDate": null,
+				"totp": null,
+				"autofillOnPageLoad": null,
+				"uris": [
+					{
+						"match": null,
+						"uri": "2.PZbUZXFpWyQ0h2WpZsvniQ==|Cx38d2YyqBF8/Ui4xC8Hcc1COFifPs2FdLshLP/pxgo=|p/vs8u7wpW2ZGwtkuOigK3EJXLCCjo+LCtXJflG0cyQ=",
+						"uriChecksum": "2.WOJYKAC6B26aGGfmr36t1A==|gQTJd7tnsvA7bhrnrphHvN8093mb1VeRnZjMVjjI4wDFimMcEHVKxaxoY53JpE3Z|IpAeYcAFTb22C+rrh7NpFHoTlgdwS4Q2xqwc8rVgtss="
+					}
+				]
+			}
+		},
+		"5e9eaf34-3128-4892-9fb9-b2e00116a17f": {
+			"id": "5e9eaf34-3128-4892-9fb9-b2e00116a17f",
+			"organizationId": null,
+			"folderId": null,
+			"edit": true,
+			"viewPassword": true,
+			"permissions": {
+				"response": {
+					"delete": true,
+					"restore": true
+				},
+				"delete": true,
+				"restore": true
+			},
+			"organizationUseTotp": false,
+			"favorite": false,
+			"revisionDate": "2025-05-17T16:54:27.83Z",
+			"type": 1,
+			"name": "2.ZC24wb8I0K13oIlMuzcHmg==|GINndt+HkqCwnlSxEX3ibQ==|qRR+yG1kti84T6QSAy3TP7a7+oOeCv01x3L5JWuY+dw=",
+			"notes": null,
+			"collectionIds": [],
+			"creationDate": "2025-05-17T16:54:27.83Z",
+			"deletedDate": null,
+			"reprompt": 0,
+			"key": null,
+			"login": {
+				"username": "2.G5rmpFNtFaXcRfwNFRBj+w==|LM0F24k6psNRhRgLnBtgMk2coWKWXUn4D6q2ZlHJuEQ=|wZFqPCjd7E1l0K2b9fDvumf1X17No0NV/NiV4mRBbxg=",
+				"password": "2.hve2H5l7DuEYSJYTkpVU4A==|tHXMdYkrNoZyT/UUDz13uA==|nFlEU0v0T6N8RVHeIA/S+AIV1mfTrbMk+ICybpYjX9w=",
+				"passwordRevisionDate": null,
+				"totp": null,
+				"autofillOnPageLoad": null,
+				"uris": [
+					{
+						"match": null,
+						"uri": "2.jbxnMAjoPZM/zfDCq88rBA==|j8+whE/PZqcsJrm7PkfK4WgAISyhE0mcMLwuTi9DzSc=|NnktKgXbFmovDP4Ld/k6F5lrhK9GfL32PTgHpAhTLsU=",
+						"uriChecksum": "2.MXk2f7p3AY7B3Olq17cB7Q==|+AOSJvVKhl4STtKLRwiFzEKVVGtKWhgOUw7UUJVr+YZGqdgh9iSGnbn8wt1tkEcQ|JxzhOwfgRpTgtOz3/7nuVXSqSLogO2+jVC/v2mj1Xe0="
+					}
+				]
+			}
+		},
+		"2b456c7f-489d-427a-b172-b2e001164fe5": {
+			"id": "2b456c7f-489d-427a-b172-b2e001164fe5",
+			"organizationId": null,
+			"folderId": null,
+			"edit": true,
+			"viewPassword": true,
+			"permissions": {
+				"response": {
+					"delete": true,
+					"restore": true
+				},
+				"delete": true,
+				"restore": true
+			},
+			"organizationUseTotp": false,
+			"favorite": true,
+			"revisionDate": "2025-05-17T17:02:54.4266667Z",
+			"type": 1,
+			"name": "2.BHGh9d0XghN+VwEh7NyMBA==|UST3OADS43WKFyB22JSQ2A==|S5R4k63KpSG/7eJNVEQDTq8IIyTRhRJuUNQA5n9UTJY=",
+			"notes": null,
+			"collectionIds": [],
+			"creationDate": "2025-05-17T16:53:18.1966667Z",
+			"deletedDate": null,
+			"reprompt": 1,
+			"key": null,
+			"login": {
+				"username": "2.cxAAbq5wFkARxVXgivJWgA==|0edCKN4S4xRQKm2hLrwrgqO5vioLg0jH121lsaZULMA=|kLkErOO2OhxFWl+C6wPhkpDE87V2YYVJlZP3O8R3bao=",
+				"password": "2.1+dO+J+SwIY2X/E60KQeoQ==|h93Zxazd3cw+fSa8HrdZig==|CHcw20Ta398KsiqkYCl3b3yWOsEqrfHtOg6la4tsSeU=",
+				"passwordRevisionDate": null,
+				"totp": null,
+				"autofillOnPageLoad": false,
+				"uris": [
+					{
+						"match": null,
+						"uri": "2.N/b2zCu7Gz1QQkFRLi/umA==|oXjvB18LLJu3GQHq9eoO24PepjKIWL9iAdk+KW503sg=|RMuG6xohSfpw34die0ooFLi0N+urZyGS2rCSUDTQ0wY=",
+						"uriChecksum": "2.bHrexbp9HnY67kVzl/IrYQ==|ehZ0IE+b9dXViyuEmnYrk1nIPkDU4sHDiBRusq4UMyQ6srJ6ZPk5Ab4VOF2sjSbx|srUBmJVITVph5mfDLEDdoG0sddAGmYcJZs3cu9x5hac="
+					}
+				]
+			}
+		},
+		"c883ad96-baf9-4dac-851a-b2e0011aa1e9": {
+			"id": "c883ad96-baf9-4dac-851a-b2e0011aa1e9",
+			"organizationId": null,
+			"folderId": null,
+			"edit": true,
+			"viewPassword": true,
+			"permissions": {
+				"response": {
+					"delete": true,
+					"restore": true
+				},
+				"delete": true,
+				"restore": true
+			},
+			"organizationUseTotp": false,
+			"favorite": false,
+			"revisionDate": "2025-05-17T17:09:01.92Z",
+			"type": 1,
+			"name": "2./DWKskPX6SYOrZ0gVrV3AA==|Hv3+fcGJlDUlMtauKaSEkeocXAYdTNdqZMMP4+L/J3U=|l85F/g3IfEe91JCOgNXXtztMgiivyAlPI0zNRhZAsJE=",
+			"notes": null,
+			"collectionIds": [],
+			"creationDate": "2025-05-17T17:09:01.92Z",
+			"deletedDate": null,
+			"reprompt": 0,
+			"key": null,
+			"login": {
+				"username": "2.wfpITPnvXds7nADef2YfJw==|OlC3YIT0qnoOFWEXX/2rtdJV+yFI2JCbtWY5bi8fDNY=|JYzkTyQSpet01BW8eWzfPzVf0UUS1Jvgz8u6+2iBiY0=",
+				"password": "2.bslT5t6tqhHiCCRKs+geOA==|s2/4bp0MxwYAqt0qBPAF4w==|pWoQRBFqr6GwFQCv4f3Kgpo8+4IVFGENF2piMM79S2E=",
+				"passwordRevisionDate": null,
+				"totp": null,
+				"autofillOnPageLoad": null,
+				"uris": [
+					{
+						"match": null,
+						"uri": "2.tpsHl98BWN+jOapT7+dtZg==|f+7ft70/0DYefjxEQsvUsLboOGtZepmPBZ5hwYXG6VyNdIzdrW7eC75qFI069GRYoH+DlL36stKDFB6iw0xDEVVNEYdzZaz1o/4gRV6nM/8g5tQxgalN1kl47s3uRSuPscnPIvhpKVl+WH6vJ4xBXQYM1KJqgudafhVzHxdZQ2127Eb/o7BUR5MEcpglVp3Gvp44lHmyFpVD50dPxFjr7gMDr01QG5jOw7O8SBbghu1RB6iFV1Hu/Qk6ZYbPFrmHhcHMrJ8ppE9K2RNLiDpQzly9+1/5KpeKcl1y6CNhJBc=|qvmkULVTUvRRE+4oB2urQZPsGr35X5SJOC5GorRYDMk=",
+						"uriChecksum": "2.nkpo1115yLa1zkaUfum9cA==|+xd9FLhoctHY9CLmcFUnxaUcYEg7ksdg0z6lutrXJcSPtybDXT3jz+hGYirKHFm1|DpXAD/xG4wPv2lEiX83NDw21mJcaxuMsgNwCta0aSHU="
+					}
+				]
+			}
+		},
+		"5a1c00b3-fc40-4aaa-a8da-b2e00118e17f": {
+			"id": "5a1c00b3-fc40-4aaa-a8da-b2e00118e17f",
+			"organizationId": null,
+			"folderId": null,
+			"edit": true,
+			"viewPassword": true,
+			"permissions": {
+				"response": {
+					"delete": true,
+					"restore": true
+				},
+				"delete": true,
+				"restore": true
+			},
+			"organizationUseTotp": false,
+			"favorite": false,
+			"revisionDate": "2025-05-17T17:03:17.6666667Z",
+			"type": 1,
+			"name": "2.GoON5mQDgY8nqI/2M6eiIg==|UF7JDcJlFTnoQe7GnfD0Fg==|3+8b18CFv3m0I0kL17dPX4UNzykauuzdRrJeL180gVU=",
+			"notes": null,
+			"collectionIds": [],
+			"creationDate": "2025-05-17T17:02:39.35Z",
+			"deletedDate": null,
+			"reprompt": 0,
+			"key": null,
+			"login": {
+				"username": "2.YLAqK9vPul2yYG97BaDllA==|nXf3gs4fZU/6wbWnRwtuCOYfIdCbI6nHxnOtpruhlbI=|9uK5K/q83zXQ1+2O3JZXeYWmXpYdSQg2ywliFLHX3KY=",
+				"password": "2.WglfSAiFE4ZVMVToS/UXPg==|0Imqx+ejvqtuwxxe4aG1gg==|W48tlBG+fUqTj/7WrK8gXuCzfb9utIpfYSHuhzbNJzE=",
+				"passwordRevisionDate": null,
+				"totp": null,
+				"autofillOnPageLoad": null,
+				"uris": [
+					{
+						"match": null,
+						"uri": "2.xCCehpmMCNF/Naf2juChwA==|PW5frBPpEheJx362IPXXqrWlci5x/W6jk2otDPhll8Y=|OY3fo0IrSRXS0L9hQMiEaJsrxPbvUEnShxO0Ds2LkFY=",
+						"uriChecksum": "2.BzSCSxAau7JkiVdO9Z4wSw==|vCAsbHwcmwYeB6Ns7yRyeFYMsipIOk4iC3j3JxwdiBtAVChi6cOVt4AxiIY/dBwP|DT9TfsKEmF+6MjTGznd377fzwNH70GnX7pucGrEMQAA="
+					}
+				]
+			}
+		},
+		"8f8e67d4-2242-4df0-adf8-b2e0011a981c": {
+			"id": "8f8e67d4-2242-4df0-adf8-b2e0011a981c",
+			"organizationId": null,
+			"folderId": null,
+			"edit": true,
+			"viewPassword": true,
+			"permissions": {
+				"response": {
+					"delete": true,
+					"restore": true
+				},
+				"delete": true,
+				"restore": true
+			},
+			"organizationUseTotp": false,
+			"favorite": false,
+			"revisionDate": "2025-05-17T17:08:53.6333333Z",
+			"type": 1,
+			"name": "2.2mLb4QfnbCLCiYf3aYBsUg==|ayrpLxTRpUs+A2s7vVkHYVJovSlNnQg7w0qk8c4Gc6E=|TD5iTX9LS+M2VBrXUKewWMYeDBiEA/LUjySWGk5q4zI=",
+			"notes": null,
+			"collectionIds": [],
+			"creationDate": "2025-05-17T17:08:53.6333333Z",
+			"deletedDate": null,
+			"reprompt": 0,
+			"key": null,
+			"login": {
+				"username": "2.nZm9k5+3fLbnpZEy+CiQgg==|mOtIO8nrAnHy7IceM0dHrWrq2YySUZW/NrYSwTzEjIo=|5hANsPYoR1bXPSJ4ZQTrFSRkkYoZdSm7HW4uZbejRlQ=",
+				"password": "2.PeHB/uBb1qBr9XhRK7AVKQ==|kDwkAVG2/sRPIZzLewVf0w==|DpmUM27XFt609PGDgQZ2QrcPKOWUR0HtggGOE1WYtU8=",
+				"passwordRevisionDate": null,
+				"totp": null,
+				"autofillOnPageLoad": null,
+				"uris": [
+					{
+						"match": null,
+						"uri": "2.Cm+XlayPZLJ61iIuL7P18w==|OWRNheIPNbtYnB5Vfkm56G6sk5C9v/zx+K86ZMgZPbs=|DycAxNeF6Bp7CZtkB87yPW2y4N6ZmPKWJJq5GbMZOr4=",
+						"uriChecksum": "2.m+ezMEhSSRdUpYD97e2U4A==|ZpU0MKgogcnYI8WbbAL/oUgZU8ymVhJcMZ+3/ptQDUZ1rVSDA+hTarCkFIiSo6zN|eOloUXCQ0c556ErDkQ3v5vcPNVhSzzqF9QwRygqnbSk="
+					}
+				]
+			}
+		}
+	},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_encryptedSend_sendUserEncrypted": {},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_domainSettings_equivalentDomains": [],
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_policies_policies": {},
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_sync_lastSync": "2025-05-30T11:12:54.963Z",
+	"user_f057f04d-111b-4759-bd4d-b2e00115adab_eventCollection_events": [],
+	"global_biometricSettings_promptCancelled": null
+}

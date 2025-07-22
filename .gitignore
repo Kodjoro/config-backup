@@ -1,0 +1,12 @@
+# Ignore common unnecessary folders
+*/Code
+*/VSCodium
+*/discord
+*/Electron
+*/obs-studio
+*/pavucontrol
+*/gtk-*
+*/autostart
+*/mimeapps.list
+*.log
+
